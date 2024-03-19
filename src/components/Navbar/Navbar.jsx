@@ -9,10 +9,10 @@ const Navbar = () => {
   return (
     <>
     <nav className={styles.navbar}>
-      <Link to="/">
+      <Link style={{marginLeft: '15px'}} to="/">
       <Logo />
       </Link>
-    <SearchBar placeholder="Search album of your choice"/>
+    <SearchBar placeholder="Search"/>
     <Button>Give Feedback</Button>
     </nav>
     </>
