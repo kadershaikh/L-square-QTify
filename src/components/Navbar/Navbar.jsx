@@ -12,7 +12,7 @@ const Navbar = () => {
       <Link style={{marginLeft: '15px'}} to="/">
       <Logo />
       </Link>
-    <SearchBar placeholder="search"/>
+    <SearchBar placeholder="search a album"/>
     <Button>Give Feedback</Button>
     </nav>
     </>
