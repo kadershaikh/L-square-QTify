@@ -1,0 +1,26 @@
+.sectionWrapper {
+    margin-bottom: 40px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.title {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.toggleText {
+    font-size: 20px;
+  font-weight: 600;
+  color: var(--color-primary);
+}
+
+.wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+    gap: 45px;
+}
