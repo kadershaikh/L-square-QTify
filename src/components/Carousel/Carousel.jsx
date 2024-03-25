@@ -1,8 +1,15 @@
-import React from 'react'
+import React from 'react';
+import styles from './Carousel.module.css'
 
-const Carousel = () => {
+const Carousel = ({data, renderComponent}) => {
   return (
-    <div>Carousel</div>
+    <div className={styles.carousel}>
+        {data.map((item, index) => (
+        <div key={index} className={styles.cardItem}>
+          {renderComponent(item)}
+        </div>
+      ))}
+    </div>
   )
 }
 

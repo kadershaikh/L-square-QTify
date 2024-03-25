@@ -1,0 +1,7 @@
+.carousel {
+ display: flex;
+ gap: 45px;
+}
+
+.cardItem {
+}
