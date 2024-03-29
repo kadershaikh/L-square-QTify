@@ -1,0 +1,40 @@
+.faqTitle {
+    text-align: center;
+    color: var(--white-color);
+    font-size: 40px;
+    margin-bottom: 20px;
+  }
+  
+  .faqQuestions {
+    margin: auto;
+    width: 80%;
+    margin-top: 32px;
+    margin-bottom: 40px;
+  }
+  
+  .faqAccordionSummary {
+    color: white !important;
+    background-color: black !important;
+    border: 1px solid white !important;
+    border-radius: 10px;
+  }
+  
+  .faqAccordionSummary .MuiSvgIcon-root {
+    color: var(--color-primary);
+    width: 35px;
+    height: 40px;
+  }
+
+  .faqAccordionSummary svg:nth-child(1) {
+    color: var(--color-primary);
+    width: 35px;
+    height: 40px;
+  }
+  
+  .faqAccordionDetails {
+    color: var(--black-color) !important;
+    background-color: var(--white-color) !important;
+    border: 1px solid white;
+    border-radius: 3px;
+  }
+  
