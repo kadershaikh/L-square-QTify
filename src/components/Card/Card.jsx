@@ -10,7 +10,7 @@ const Card = ({ data, type }) => {
         const { image, title, slug, follows, songs } = data;
         return (
           <Tooltip title={`${songs.length} songs`} placement="top" arrow>
-            <Link style={{textDecoration: 'none'}} to={`/album/${slug}`}>
+            {/* <Link style={{textDecoration: 'none'}} to={`/album/${slug}`}> */}
             <div className={styles.wrapper}>
               <div className={styles.card}>
                 <img src={image} alt="album" />
@@ -26,7 +26,7 @@ const Card = ({ data, type }) => {
                 <p>{title}</p>
               </div>
             </div>
-            </Link>
+            {/* </Link> */}
           </Tooltip>
         );
       }
